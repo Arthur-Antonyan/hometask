@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+*{
+    font-family: 'Tangerine', serif;
+}
+
+body{
+    
+    background: linear-gradient(-45deg,rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.16));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+
+}
+   
+h1{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-left:28%;
+}
+  
+
+.main{
+    
+    height:500px;
+    width:500px;
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+    border-radius:15px;
+    
+    
+}
+
+input{
+ width:80%;
+ height:5%;
+ background: #FFF;
+ border-radius:15px;
+ margin:5px;
+ font-size:25px;
+ font-weight:bolder;
+ border:none;
+
+ 
+ 
+ 
+}
+
+
+  input:focus {
+    
+    outline: none;
+  }
+
+  input:focus::placeholder {
+    color:transparent
+  }
+
+  button{
+    width:80%;
+    height:5%;
+    background: #FFF;
+    border-radius:15px;
+    margin:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    font-style: italic;
+    color:#AE1100;
+    border:none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.16),  5px 5px 20px #BABECC;
+
+  }
+  button:hover {
+    
+        box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.16), 2px 2px 5px #BABECC;
+        color:rgba(0, 0, 0, 0.54);
+        transition-property:all;
+        transition-duration:1s;
+      
+  }
+  input[type=radio]{
+    width:15%;
+    height:3%;
+    background: #FFF;
+    border-radius:15px;
+    margin:5px;
+    
+    border:none;
+    /* transition: ease-in-out, width .35s ease-in-out; */
+    
+    
+   }
+   label{
+    font-size: 20px;
+   }
+   
+   .search{
+    width:30%;
+    height:5%;
+    background: #FFF;
+    border-radius:15px;
+    margin:5px;
+    font-size:25px;
+    font-weight:bolder;
+    border:none;
+    transition: ease-in-out, width .35s ease-in-out;
+    background-image: url('314807_search_icon.png');
+    background-repeat: no-repeat;
+    padding: 1px 1px 0px 24px;
+    
+   }
+   .search:focus {
+    width:75%;
+    
+  }
+  select{
+    width:21%;
+    height:5%;
+    background: #FFF;
+    border-radius:15px;
+    margin:5px;
+    font-size: 22px;
+    text-align: center;
+    border:none;
+    
+    
+    
+   }
+   wtf{
+       font-size: 24px;
+   }
