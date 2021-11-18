@@ -1,0 +1,134 @@
+body{
+    
+    background: linear-gradient(-45deg,rgba(0, 0, 0, 0.56),rgba(0, 0, 0, 0.16));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+   
+ul{
+    display:flex;
+    
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+    position:relative;
+    left:50px;
+    width:5%;
+    border-radius:15px;
+    margin:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    font-style: italic;
+    color:#AE1100;
+    border:none;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.16);
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.16),  5px 5px 20px #BABECC; 
+ 
+}
+
+a{
+   
+    color:#AE1100;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+}
+
+
+a:hover{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.54)
+}
+
+li:hover {
+    
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.16), 2px 2px 5px #BABECC;
+    color:rgba(0, 0, 0, 0.54);
+    transition-property:all;
+    transition-duration:0,1s;
+    cursor: pointer;
+  
+}
+
+.submenu {
+    position:absolute;
+    top:90%;
+    left:-100%;
+    display:none;
+    min-width: 120%;
+    min-height: 150%;
+  
+}
+.submenu li{
+    width:70%;
+    margin-left: -3%;
+   
+}
+
+.topMenu:hover .submenu{
+    
+    display:block;
+    z-index: 1;
+  
+}
+
+.carusel{
+    box-sizing:border-box;
+    width:45%;
+    height:300px;
+    background-color: rgba(0, 0, 0, 0.16);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:8%
+}
+ img{
+     width:100%;
+     height:300px;
+
+ }
+
+
+ .prev,.next{
+    cursor: pointer;
+    color:#AE1100;
+    position:absolute;
+    margin-top:-15%;
+    font-size: 50px;
+    transition: 0.6s ease;
+   
+ }
+
+ .next{
+     right:27.5%;
+ }
+
+
+ .text{
+    color: #f2f2f2;
+  font-size: 15px;
+  margin-right:auto;
+  bottom: -6px;
+  width: 100%;
+  text-align: center;
+      
+
+ }
+
+ .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot:hover {
+    background-color: #AE1100;
+  }

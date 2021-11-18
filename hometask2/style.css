@@ -81,6 +81,7 @@ input{
         color:rgba(0, 0, 0, 0.54);
         transition-property:all;
         transition-duration:1s;
+        cursor: pointer;
       
   }
   input[type=radio]{
@@ -131,6 +132,6 @@ input{
     
     
    }
-   wtf{
+   span{
        font-size: 24px;
    }
